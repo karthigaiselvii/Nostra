@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Google Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap"
+        rel="stylesheet">
+
+    <!-- Tailwindcss CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Nostra</title>
+</head>
+
+<body>
+    <!-- Top Nav -->
+    <div id="offer-box" class="flex gap-0 justify-around p-1 bg-black text-white">
+        <p>Sign Up and <b>GET 20% OFF</b> for yor first Order</p>
+        <p id="closenav" class="cursor-pointer">X</p>
+
+    </div>
+
+    <nav>
+        <div class="flex justify-between items-center text-2xl p-2 gap-5">
+            <h1 class="font-bold cursor-pointer">Nostra</h1>
+            <p id="end" class="cursor-pointer md:hidden"><i class="fa-solid fa-bars" style="color: #080808;"></i>
+            </p>
+            <div class="gap-5 p-2 cursor-pointer hidden md:flex" style="font-size: 16px;">
+                <p><a class="hover:underline" href="index.html">Home</a></p>
+                <p><a class="hover:underline" href="#newarrival">New Arrival</a></p>
+                <p><a class="hover:underline" href="#mostwanted">Most Wanted</a></p>
+                <p><a class="hover:underline" href="collections.html">Collections</a></p>
+                <p><a class="hover:underline" href="contactus.html">Contact Us</a></p>
+            </div>
+        </div>
+    </nav>
+
+    <!-- side nav -->
+    <section id="sidenav" class="fixed z-10 bg-white hidden" style="width: 50%; height: 100vh;">
+        <div class="text-right">
+            <p id="menunav" class="inline cursor-pointer">X</p>
+        </div>
+        <div class="flex flex-col gap-5 items-center">
+            <p><a class="hover:underline" href="index.html">Home</a></p>
+            <p><a class="hover:underline" href="#newarrival">New Arrival</a></p>
+            <p><a class="hover:underline" href="#mostwanted">Most Wanted</a></p>
+            <p><a class="hover:underline" href="collections.html">Collections</a></p>
+            <p><a class="hover:underline" href="contactus.html">Contact Us</a></p>
+        </div>
+    </section>
+
+    <!-- slide image -->
+        <div class="container">
+            <a class="btn btn-left"><i class="fa-solid fa-caret-left"></i></a>
+            <div class="container__heading">
+                <h2 class="font-bold text-3xl">Level up your style</h2>
+                <p class="font-bold text-1xl">With our Summer Collections</p>
+                <button class="m-1 p-2 rounded border border-black hover:bg-black hover:text-white">Shop Now </button>
+            </div>
+            <a class="btn btn-right"><i class="fa-solid fa-caret-right"></i></a>
+        </div>
+
+
+    <!-- Brands Section -->
+    <section>
+
+        <h2 class="font-bold text-2xl p-2 mt-3">Brands</h2>
+        <div class="flex justify-around gap-10 text-center p-1 my-2">
+            <div class="text-center">
+                <p><img class="inline" style="width: 4vw;" src="./images/puma.png" alt="puma"></p>
+                <p>Puma</p>
+            </div>
+            <div class="text-center">
+                <p><img class="inline" style="width: 4vw;" src="./images/adidas.png" alt="adidas"></p>
+                <p>Adidas</p>
+            </div>
+            <div class="text-center">
+                <p><img class="inline" style="width: 4vw;" src="./images/simple.png" alt="simple"></p>
+                <p>Simple</p>
+            </div>
+            <div class="text-center">
+                <p><img class="inline" style="width: 4vw;" src="./images/leave.png" alt="leave"></p>
+                <p>Leaves</p>
+            </div>
+            <div class="text-center">
+                <p><img class="inline" style="width: 4vw;" src="./images/puma.png" alt="behance"></p>
+                <p>Behance</p>
+            </div>
+            <div class="text-center">
+                <p><img class="inline" style="width: 4vw;" src="./images/twitch.png" alt="twitch"></p>
+                <p>Twich</p>
+            </div>
+            <div class="text-center">
+                <p><img class="inline" style="width: 4vw;" src="./images/leave.png" alt="leave"></p>
+                <p>Leaves</p>
+            </div>
+
+        </div>
+        <div class="flex justify-between p-2">
+            <p class="font-bold">We provide Best Customer Experiences</p>
+            <p>|| We ensure that our customer have the best shopping experience</p>
+        </div>
+        <div class="flex justify-between gap-3 p-2 m-2 flex-wrap">
+            <div class="bg-gray-100 p-2">
+                <i class="fa-regular fa-circle-check" style="color: #080808;"></i>
+                <p class="font-bold">Original Products</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+
+            <div class="bg-gray-100 p-2">
+                <i class="fa-regular fa-face-smile" style="color: #0a0a0a;"></i>
+                <p class="font-bold">Satisfaction Guarantee</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+
+            <div class="bg-gray-100 p-2">
+                <i class="fa-solid fa-circle-check" style="color: #080808;"></i>
+                <p class="font-bold">New Arrival Everyday</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+
+            <div class="bg-gray-100 p-2">
+                <i class="fa-solid fa-caravan" style="color: #0a0a0a;"></i>
+                <p class="font-bold">Fast & Free Shipping</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Arrivals Section -->
+    <section>
+        <div class="mt-5">
+            <h2 class="font-bold text-2xl m-3" id="newarrival">New Arrivals</h2>
+            <div class="flex gap-4 p-4 justify-between items-center flex-wrap">
+                <div class="relative">
+                    <img src="./images/coat.png" alt="shirt" class="opacity-70 rounded cursor-pointer">
+                    <button class="absolute top-20 left-5 bg-white rounded-lg p-2">Shop Now <i
+                            class="fa-solid fa-arrow-right" style="color: #050505;"></i></button>
+
+                </div>
+
+                <div class="relative">
+                    <img src="./images/pant.png" alt="shirt" class="opacity-70 rounded cursor-pointer">
+                    <button class="absolute top-20 left-5 bg-white rounded-lg p-2">Shop Now <i
+                            class="fa-solid fa-arrow-right" style="color: #050505;"></i></button>
+
+                </div>
+
+                <div class="relative">
+                    <img src="./images/shirt.png" alt="shirt" class="opacity-70 rounded cursor-pointer">
+                    <button class="absolute top-20 left-5 bg-white rounded-lg p-2">Shop Now <i
+                            class="fa-solid fa-arrow-right" style="color: #050505;"></i></button>
+                </div>
+
+                <div class="relative">
+                    <img src="./images/tshirt.png" alt="shirt" class="opacity-70 rounded cursor-pointer">
+                    <button class="absolute top-20 left-5 bg-white rounded-lg p-2">Shop Now <i
+                            class="fa-solid fa-arrow-right" style="color: #050505;"></i></button>
+                </div>
+
+                <div class="relative">
+                    <img src="./images/tshirt.png" alt="shirt" class="opacity-70 rounded cursor-pointer">
+                    <button class="absolute top-20 left-5 bg-white rounded-lg p-2">Shop Now <i
+                            class="fa-solid fa-arrow-right" style="color: #050505;"></i></button>
+                </div>
+
+                <div class="relative">
+                    <img src="./images/shirt.png" alt="shirt" class="opacity-70 rounded cursor-pointer">
+                    <button class="absolute top-20 left-5 bg-white rounded-lg p-2">Shop Now <i
+                            class="fa-solid fa-arrow-right" style="color: #050505;"></i></button>
+                </div>
+                <div class="relative">
+                    <img src="./images/shirt.png" alt="shirt" class="opacity-70 rounded cursor-pointer">
+                    <button class="absolute top-20 left-5 bg-white rounded-lg p-2">Shop Now <i
+                            class="fa-solid fa-arrow-right" style="color: #050505;"></i></button>
+                </div>
+                <div class="relative">
+                    <img src="./images/pant.png" alt="shirt" class="opacity-70 rounded cursor-pointer">
+                    <button class="absolute top-20 left-5 bg-white rounded-lg p-2">Shop Now <i
+                            class="fa-solid fa-arrow-right" style="color: #050505;"></i></button>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Most Wanted -->
+    <section>
+        <div class="most">
+            <h2 class="m-3 font-bold text-2xl" id="mostwanted">Most Wanted</h2>
+            <div class="flex justify-between gap-5 m-2 flex-wrap md:flex-grow-1 basis-auto">
+                <div class="relative">
+                    <img class="relative cursor-pointer" src="./images/tshirt.png" alt="shirt">
+                    <button class="absolute top-0 left-0 bg-red-600 text-white rounded-lg p-1">Sale</button>
+                    <i class="fa-regular fa-heart fa-2x absolute bottom-0 right-0 cursor-pointer"
+                        style="color: #050505;"></i>
+                </div>
+                <div class="relative">
+                    <img class="cursor-pointer" src="./images/pant.png" alt="shirt">
+                    <button class="absolute top-0 left-0 bg-red-600 text-white rounded-lg p-1">Sale</button>
+                    <i class="fa-regular fa-heart fa-2x absolute bottom-0 right-0 cursor-pointer"
+                        style="color: #050505;"></i>
+
+                </div>
+                <div class="relative">
+                    <img class="cursor-pointer" src="./images/shirt.png" alt="shirt">
+                    <button class="absolute top-0 left-0 bg-red-600 text-white rounded-lg p-1">Sale</button>
+                    <i class="fa-regular fa-heart fa-2x absolute bottom-0 right-0 cursor-pointer"
+                        style="color: #050505;"></i>
+                </div>
+                <div class="relative">
+                    <img class="cursor-pointer" src="./images/pant.png" alt="shirt">
+                    <button class="absolute top-0 left-0 bg-red-600 text-white rounded-lg p-1">Sale</button>
+                    <i class="fa-regular fa-heart fa-2x absolute bottom-0 right-0 cursor-pointer"
+                        style="color: #050505;"></i>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="bg-gray-900 m-5 flex w-full">
+            <img class="p-5" src="./images/dress.jpg" style="width: 40%;" alt="">
+            <div class="text-white mt-5 p-2">
+                <h2 class="font-bold">Limited Offer</h2>
+                <p class="font-bold">35% Off on this for the first 30 Customers</p>
+                <button class="bg-white text-black rounded-lg p-1 m-1">Shop Now <i class="fa-solid fa-arrow-right"
+                        style="color: #050505;"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Letter -->
+    <section>
+        <div class="text-center mt-5">
+            <h3 class="font-bold">Join Our News Letter</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, laborum?</p>
+            <input type="text" class="border border-black p-1 mt-2" style="width: 90%;">
+            <button class="bg-gray-900 text-white p-2 rounded m-2">Subscripe <i class="fa-solid fa-arrow-right"
+                    style="color: #050505;"></i></button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white p-10" style="font-size: 12px;">
+        <h2 class="font-bold">Nostra</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nam libero aspernatur modi ducimus magnam
+            rerum vel eos odit quibusdam. Rem, officia. Excepturi, enim ut!</p>
+        <div class="flex gap-7 p-2">
+            <i class="fa-brands fa-instagram" style="color: #f1f2f3;"></i>
+            <i class="fa-brands fa-twitter" style="color: #f7f7f7;"></i>
+            <i class="fa-brands fa-facebook" style="color: #f7f7f7;"></i>
+        </div>
+
+        <p>@ 2023 Nostra.com</p>
+
+    </footer>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
